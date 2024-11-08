@@ -15,6 +15,10 @@ const config: Config = {
       },
     },
     extend: {
+      backgroundImage: {
+        "hero-pattern": "url('/assets/img/bg/Mask.svg')",
+        // "footer-texture": "url('/img/footer-texture.png')",
+      },
       colors: {
         primary: "#D87D4A",
         secondary: "#fbaf85",
@@ -27,6 +31,9 @@ const config: Config = {
       fontFamily: {
         primary: ["var(--monrope-font)", "sans-serif"],
       },
+    },
+    letterSpacing: {
+      wider: ".0625em",
     },
   },
   plugins: [],

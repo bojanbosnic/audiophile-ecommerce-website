@@ -11,13 +11,13 @@ const Index = () => {
             <Link href="/">
               <Image
                 src={logo.src}
-                width={100}
-                height={100}
+                width={143}
+                height={25}
                 alt="audiophile logo"
               />
             </Link>
           </div>
-          <div className="flex items-center justify-between [&>*]:text-white [&>*]:tracking-wider [&>*]:uppercase [&>*]:mr-4">
+          <div className="flex items-center justify-between  [&>*]:tracking-wider [&>*]:uppercase [&>*]:mr-4">
             <li>
               <Link href="/">Home</Link>
             </li>
@@ -33,7 +33,7 @@ const Index = () => {
           </div>
           <div>
             <Link href="/">
-              <Image src={icon.src} width={50} height={50} alt="" />
+              <Image src={icon.src} width={23.33} height={20} alt="cart" />
             </Link>
           </div>{" "}
         </ul>

@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body {
+  @apply font-primary;
+}
+.home-title {
+  @apply text-6xl;
+}
+.home-h2 {
+  @apply text-base font-medium leading-6 opacity-75;
+}
